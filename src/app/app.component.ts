@@ -48,11 +48,11 @@ import { getCountries, getCountryCallingCode, parsePhoneNumberFromString, type C
             <input id="email" formControlName="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="254"/>
             <label class="checkbox">
               <input type="checkbox" formControlName="marketing_consent"/>
-              <span>I agree to receive promotional offers and event updates from KORA by email or phone. This is optional, and I can withdraw consent later.</span>
+              <span>I agree to receive promotional offers and event updates from KORA and Social Football by email or phone.</span>
             </label>
             @if (error()) { <div class="message error" role="alert">{{error()}}</div> }
             <button type="submit" [disabled]="submitting()">{{submitting() ? 'Registering…' : 'Complete registration →'}}</button>
-            <p class="privacy">We use your details to manage registration. Marketing messages are sent only with your consent. Please refer to the organizer's privacy notice for data rights and contact details.</p>
+            <p class="privacy">We use your details to manage registration. Marketing messages are sent only with your consent.</p>
           </form>
         }
       </section>
