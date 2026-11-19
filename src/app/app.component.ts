@@ -10,12 +10,7 @@ import { getCountries, getCountryCallingCode, parsePhoneNumberFromString, type C
   imports: [ReactiveFormsModule],
   template: `
     <main class="page">
-      <section class="intro">
-        <div class="eyebrow">KORA COMMUNITY</div>
-        <h1>Play together.<br><em>Belong together.</em></h1>
-        <p>Join our social football community and tell us a little about yourself.</p>
-        <div class="football" aria-hidden="true">⚽</div>
-      </section>
+      <section class="intro" role="img" aria-label="KORA football on the pitch. Play together. Belong together."></section>
       <section class="panel">
         <div class="panel-header"><span class="step">01 / PLAYER DETAILS</span><span class="pill">EVENT SIGN-UP</span></div>
         <h2>Join the game</h2>
