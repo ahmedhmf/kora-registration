@@ -41,3 +41,7 @@ Two unique indexes reject registration if **either** normalized email **or** nor
 - Replace the example privacy wording with a complete privacy notice identifying KORA's organizer/contact, data purposes, retention, withdrawal and deletion procedures.
 - Configure lawful marketing consent and any applicable double-opt-in requirements before sending offers. Registration is allowed without marketing consent.
 - Review which personal information is truly necessary and restrict access in the Supabase dashboard.
+
+## Hero image asset
+
+The left photo panel expects `public/assets/kora-hero.webp`. Upload the optimized KORA photo to that repository path (create `public/assets` if needed). Its original text is already baked into the image, so the Angular panel deliberately contains no duplicate headline. The form styling uses the photo's orange, near-black, and warm-white palette. Angular's `angular.json` includes the public directory as static assets.
