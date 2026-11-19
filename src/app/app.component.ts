@@ -7,7 +7,7 @@ import { finalize } from 'rxjs';
   selector: 'app-root',
   standalone: true,
   imports: [ReactiveFormsModule],
-  template: \`
+  template: `
     <main class="page">
       <section class="intro">
         <div class="eyebrow">KORA COMMUNITY</div>
@@ -53,7 +53,7 @@ import { finalize } from 'rxjs';
         }
       </section>
     </main>
-  \`
+  `
 })
 export class AppComponent {
   private fb = inject(FormBuilder);
