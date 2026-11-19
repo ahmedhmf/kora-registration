@@ -18,7 +18,7 @@ import { finalize } from 'rxjs';
       <section class="panel">
         <div class="panel-header"><span class="step">01 / PLAYER DETAILS</span><span class="pill">EVENT SIGN-UP</span></div>
         <h2>Join the game</h2>
-        <p class="sub">Complete the form below to register with KORA.</p>
+        <p class="sub">Complete the form below to play KORA with Social Football.</p>
         @if (success()) {
           <div class="message success" role="status">You're registered! We look forward to seeing you on the pitch.</div>
           <button type="button" (click)="reset()">Register another person</button>
